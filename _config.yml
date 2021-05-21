@@ -103,7 +103,7 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/qd98xuan/huiyiwu.github.io.git'
+  repo: 'https://github.com/qd98xuan/qd98xuan.github.io.git'
   branch: 'master'
   message: 'Update Huiyiwu'
 
