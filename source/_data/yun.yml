@@ -115,9 +115,9 @@ codeblock:
 
 # Extra links
 pages:
-  - name: 我的小伙伴们
-    url: /links/
-    icon: icon-genderless-line
+  - name: 我的相册
+    url: /albums/
+    icon: icon-gallery-line
     color: dodgerblue
 
 # pages
@@ -126,7 +126,7 @@ pages:
 anonymous_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg
 
 albums:
-  enable: false
+  enable: true
   icon: icon-gallery-line
 
 girls:
@@ -142,9 +142,9 @@ avatar:
   opacity: 1
   mickey_mouse: false
   status:
-    enable: false
-    emoji: 😊
-    message: 永远相信美好的事情即将发生
+    enable: true
+    emoji: 📖
+    message: 老黄历万岁！
 
 # main menu navigation
 menu:
@@ -162,9 +162,9 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-    title: 文档
-    path: https://yun.yunyoujun.cn
-    icon: icon-settings-line
+    title: 老黄历
+    path: https://m.laohuangli.net/
+    icon: icon-calendar-line
 
 # archive
 archive:
@@ -319,15 +319,15 @@ reward:
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
     - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      path: /images/reward/zhifubao.JPG
       color: "#00A3EE"
       icon: icon-alipay-line
     - name: QQ 支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+      path: /images/reward/qq.JPG
       color: "#12B7F5"
       icon: icon-qq-line
     - name: 微信支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      path: /images/reward/weixin.JPG
       color: "#2DC100"
       icon: icon-wechat-pay-line
     # - name: paypal
